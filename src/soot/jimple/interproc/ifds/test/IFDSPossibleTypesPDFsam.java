@@ -379,8 +379,8 @@ public class IFDSPossibleTypesPDFsam {
 //				+ udir + File.separator + "AppleJavaExtensions.jar" + cpSep
 //				+ udir + File.separator + "jmf.jar" + cpSep
 //				+ udir + File.separator + "sunflow.jar" + cpSep
-				+ "/usr/lib/jvm/java-6-sun/jre/lib/rt.jar" + cpSep
-				+ "/usr/lib/jvm/java-6-sun/jre/lib/jce.jar" + cpSep
+				+ "/usr/lib/jvm/oracle-jdk-bin-1.7/jre/lib/rt.jar" + cpSep
+				+ "/usr/lib/jvm/oracle-jdk-bin-1.7/jre/lib/jce.jar" + cpSep
 				+ "C:\\Program Files\\Java\\jre7\\lib\\rt.jar" + cpSep
 				+ "C:\\Program Files\\Java\\jre7\\lib\\jce.jar";
 		System.out.println("Soot classpath: " + sootcp);
@@ -480,8 +480,8 @@ public class IFDSPossibleTypesPDFsam {
 //				+ udir + File.separator + "AppleJavaExtensions.jar" + cpSep
 //				+ udir + File.separator + "jmf.jar" + cpSep
 //				+ udir + File.separator + "sunflow.jar" + cpSep
-				+ "/usr/lib/jvm/java-6-sun/jre/lib/rt.jar" + cpSep
-				+ "/usr/lib/jvm/java-6-sun/jre/lib/jce.jar" + cpSep
+				+ "/usr/lib/jvm/oracle-jdk-bin-1.7/jre/lib/rt.jar" + cpSep
+				+ "/usr/lib/jvm/oracle-jdk-bin-1.7/jre/lib/jce.jar" + cpSep
 				+ "C:\\Program Files\\Java\\jre7\\lib\\rt.jar" + cpSep
 				+ "C:\\Program Files\\Java\\jre7\\lib\\jce.jar";
 		System.out.println("Soot classpath: " + sootcp);
