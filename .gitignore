@@ -9,3 +9,8 @@
 /.gradle/
 /build/
 /gradle.properties
+
+# Test inputs
+/abc Versions
+/JUnit Versions
+/soot Versions
