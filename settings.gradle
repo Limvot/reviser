@@ -8,3 +8,5 @@
  */
 
 rootProject.name = 'reviser'
+include("soot")
+include("heros")

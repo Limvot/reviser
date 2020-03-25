@@ -1,0 +1,6 @@
+[submodule "heros"]
+	path = heros
+	url = git@github.com:Limvot/heros.git
+[submodule "soot"]
+	path = soot
+	url = git@github.com:Limvot/soot.git

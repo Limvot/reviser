@@ -12,9 +12,16 @@ sourceSets {
         }
     }
 }
+test {
+    testLogging {
+        outputs.upToDateWhen {false}
+        showStandardStreams = true
+    }
+}
 
 dependencies {
-    compile group: 'com.github.diogocp', name: 'soot', version: 'reviser-SNAPSHOT'
+    //compile group: 'com.github.diogocp', name: 'soot', version: 'reviser-SNAPSHOT'
+    compile project(':soot')
     testCompile 'junit:junit:4.12'
 
     compile files('libs/AXMLPrinter2.jar')
