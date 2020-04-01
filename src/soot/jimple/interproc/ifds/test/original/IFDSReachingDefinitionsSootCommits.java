@@ -67,6 +67,8 @@ public class IFDSReachingDefinitionsSootCommits {
 				+ JUNIT_DIR + "/lib/hamcrest-core-1.3.jar" + File.pathSeparator
 				+ "/usr/lib/jvm/oracle-jdk-bin-1.7/jre/lib/rt.jar" + File.pathSeparator
 				+ "/usr/lib/jvm/oracle-jdk-bin-1.7/jre/lib/jce.jar" + File.pathSeparator
+                + System.getenv("RT_PATH") + File.pathSeparator
+                + System.getenv("JCE_PATH") + File.pathSeparator
 				+ "C:\\Program Files\\Java\\jre7\\lib\\rt.jar" + File.pathSeparator
 				+ "C:\\Program Files\\Java\\jre7\\lib\\jce.jar";
 		System.out.println("Soot classpath: " + sootcp);

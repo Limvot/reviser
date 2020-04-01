@@ -1,7 +1,7 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Make sure we build using JDK 7
-export JAVA_HOME="/usr/lib/jvm/oracle-jdk-bin-1.7/"
+#export JAVA_HOME="/usr/lib/jvm/oracle-jdk-bin-1.7/"
 
 # Clone the JUnit repository if it doesn't already exist
 git clone https://github.com/junit-team/junit4.git

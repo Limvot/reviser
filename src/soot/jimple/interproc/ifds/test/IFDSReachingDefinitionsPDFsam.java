@@ -383,6 +383,8 @@ public class IFDSReachingDefinitionsPDFsam {
 //				+ udir + File.separator + "sunflow.jar" + cpSep
 				+ "/usr/lib/jvm/oracle-jdk-bin-1.7/jre/lib/rt.jar" + cpSep
 				+ "/usr/lib/jvm/oracle-jdk-bin-1.7/jre/lib/jce.jar" + cpSep
+                + System.getenv("RT_PATH") + cpSep
+                + System.getenv("JCE_PATH") + cpSep
 				+ "C:\\Program Files\\Java\\jre7\\lib\\rt.jar" + cpSep
 				+ "C:\\Program Files\\Java\\jre7\\lib\\jce.jar";
 		System.out.println("Soot classpath: " + sootcp);
@@ -487,6 +489,8 @@ public class IFDSReachingDefinitionsPDFsam {
 //				+ udir + File.separator + "sunflow.jar" + cpSep
 				+ "/usr/lib/jvm/oracle-jdk-bin-1.7/jre/lib/rt.jar" + cpSep
 				+ "/usr/lib/jvm/oracle-jdk-bin-1.7/jre/lib/jce.jar" + cpSep
+                + System.getenv("RT_PATH") + cpSep
+                + System.getenv("JCE_PATH") + cpSep
 				+ "C:\\Program Files\\Java\\jre7\\lib\\rt.jar" + cpSep
 				+ "C:\\Program Files\\Java\\jre7\\lib\\jce.jar";
 		System.out.println("Soot classpath: " + sootcp);
