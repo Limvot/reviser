@@ -23,7 +23,8 @@ import soot.jimple.toolkits.ide.icfg.JimpleBasedInterproceduralCFG;
 
 public class IFDSUninitializedVariablesJUnit {
 
-	private final static int TEST_COUNT = 10;
+	//private final static int TEST_COUNT = 10;
+	private final static int TEST_COUNT = 1;
 	private final static String JUNIT_DIR = "test";
 	private final static String CLASS_NAME = "org.junit.runner.JUnitCore";
 	

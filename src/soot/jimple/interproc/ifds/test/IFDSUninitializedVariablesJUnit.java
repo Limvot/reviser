@@ -45,7 +45,8 @@ import soot.jimple.toolkits.ide.icfg.UpdatableJimpleBasedInterproceduralCFG;
 
 public class IFDSUninitializedVariablesJUnit {
 
-	private final static int TEST_COUNT = 10;
+	//private final static int TEST_COUNT = 10;
+	private final static int TEST_COUNT = 1;
 	private final static String JUNIT_DIR = "test";
 	private final static String CLASS_NAME = "org.junit.runner.JUnitCore";
 
@@ -338,6 +339,8 @@ public class IFDSUninitializedVariablesJUnit {
 				+ JUNIT_DIR + "/hamcrest-core-1.3.jar" + File.pathSeparator
 				+ "/usr/lib/jvm/oracle-jdk-bin-1.7/jre/lib/rt.jar" + File.pathSeparator
 				+ "/usr/lib/jvm/oracle-jdk-bin-1.7/jre/lib/jce.jar" + File.pathSeparator
+                + System.getenv("RT_PATH") + File.pathSeparator
+                + System.getenv("JCE_PATH") + File.pathSeparator
 				+ "C:\\Program Files\\Java\\jre7\\lib\\rt.jar" + File.pathSeparator
 				+ "C:\\Program Files\\Java\\jre7\\lib\\jce.jar";
 
@@ -400,6 +403,8 @@ public class IFDSUninitializedVariablesJUnit {
 				+ JUNIT_DIR + "/hamcrest-core-1.3.jar" + File.pathSeparator
 				+ "/usr/lib/jvm/oracle-jdk-bin-1.7/jre/lib/rt.jar" + File.pathSeparator
 				+ "/usr/lib/jvm/oracle-jdk-bin-1.7/jre/lib/jce.jar" + File.pathSeparator
+                + System.getenv("RT_PATH") + File.pathSeparator
+                + System.getenv("JCE_PATH") + File.pathSeparator
 				+ "C:\\Program Files\\Java\\jre7\\lib\\rt.jar" + File.pathSeparator
 				+ "C:\\Program Files\\Java\\jre7\\lib\\jce.jar";
 		System.out.println("Soot classpath: " + sootcp);
